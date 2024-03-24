@@ -1,0 +1,79 @@
+.reservation__content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+}
+
+.reservation__content-form{
+    background-color: #EDEFEE;
+    margin: 10em;
+    padding: 4em 4em 4em 4em ;
+    border-radius: 16px;
+    align-items: center;
+    font-family: "Markazi Text";
+    justify-content: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label, select{
+        margin: 10px;
+        padding: 10px;
+        font-family: "Markazi Text";
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        color:grey;
+
+
+
+
+}
+
+select{
+    border-radius: 16px;
+    border: none;
+    height: 2.7em;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border-radius: 16px;
+    border: none;
+    height: 3em;
+    width: 30em;
+    font-weight: bold;
+    font-size: 0.8em;
+    color:grey;  
+    font-family: "Markazi Text";
+    padding-left: 1em;
+}
+input placeholder{
+    font-weight: bold;
+    font-size: 2.5em;
+    color:grey;  
+    font-family: "Markazi Text";
+}
+
+.reservation__content button{
+    font-size: 30px;
+    width: 15em;
+    height: 2em;
+    font-weight: bolder;
+    border-radius: 16px;
+    font-family: "Markazi Text";
+    align-self: center;
+    justify-content: center;
+
+
+}

@@ -1,0 +1,91 @@
+
+.header__container img {
+    width: 50%;
+    height:45%;
+    min-width: 270px;
+    max-width: 700px;
+    border-radius: 16px;
+    margin-right: 4em;
+    
+
+}
+
+
+.header__container{
+    background: #495e57;
+    display: flex;
+    padding: 10px 20px 10px 40px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.header__title{
+    color: #f4ce14;
+    font-size: 3.8em;
+    font-family: "Markazi Text";
+    text-wrap: nowrap;
+    font-weight: 100;
+}
+
+.header__description{
+    color: white;
+    font-size: 2.1em;
+    font-family: "Markazi Text";
+    line-height: 35px;
+    padding-bottom: 0.2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 25rem;
+
+}
+
+.header__container-img{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.header__text{
+    color: white;
+    font-size:0.85rem;
+    line-height: 1.35em;
+    flex-wrap: wrap;
+}
+
+.header__container-text {
+width: 400px;
+padding: 20px;
+margin-left: 7em;
+font-family: 'Karla';
+
+}
+
+ button {
+    border-radius: 16px;
+    width: 9rem;
+    height: 3rem;
+    font-size: 0.95em;
+    border: none;
+    background-color: #f4ce14;
+    color: black;
+    margin-top: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Karla';
+}
+
+@media screen and (max-width: 660px) {
+    .header__container img {
+        border-radius: 16px;
+        width: 100px;
+        height: 200px;
+        border-radius: 16px;
+        margin-right: 2em;
+    
+    }
+}

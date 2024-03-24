@@ -1,0 +1,60 @@
+.Menu__container {
+    width: auto;
+    height: auto;;
+    background: #edefee;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: "Markazi Text";
+
+    /* border-style: dotted; */
+       border-color: #495e57;
+}
+
+.Menu__container-title{
+    padding: 20px;
+    font-size: 250%;
+    font-family: "Markazi Text";
+    font-weight:bolder;   
+    color: #495e57;
+
+}
+
+.Menu__title {
+    font-weight: bolder;
+}
+
+.Menu__item h4{
+    display: inline;
+    display: row;
+    padding: 50px;
+    align-items: center;
+    font-size: 150%;
+
+}
+.Menu__item p{
+    display:inline;
+    display: row;
+    justify-items: end;
+    font-size: 150%;
+    color: #ee9772;
+
+
+}
+
+.Menu__p {
+    display: flex;
+    width: auto;
+    padding:20px;
+
+}
+
+.Menu__content-item{
+    border: black;
+    /* border-style: dashed; */
+    margin: 20px;
+    background-color: white;
+}

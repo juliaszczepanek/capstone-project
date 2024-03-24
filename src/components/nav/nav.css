@@ -1,0 +1,49 @@
+.nav__links-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Markazi Text";
+
+
+}
+.nav__links-logo {
+    margin-right: 3rem;
+    font-family: "Markazi Text";
+
+}
+.nav__links-logo img{
+width: 200px;
+height: 150px;
+}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav__links-container   a {
+    color: black;
+    font-family: "Karla";
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    line-height: 25px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .nav__links-container {
+        padding: 2rem 4rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .nav__links-container {
+        padding: 2rem;
+    }
+}
+
+

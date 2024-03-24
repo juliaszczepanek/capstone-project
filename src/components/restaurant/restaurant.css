@@ -1,0 +1,130 @@
+
+.restaurant__content {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center  ;
+    margin-bottom: 70px;
+    padding-top: 10px;
+}
+
+.restaurant__text-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 4rem;
+}
+.restaurant__text-title {
+    font-family: "Markazi Text";
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+}
+
+.restaurant__text-subtitle {
+    font-family: "Markazi Text";
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-weight: 100;
+    padding-bottom: 0.4em;
+}
+
+.restaurant__text-paragraph {
+  font-family: "Karla";
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    max-width: 30rem;
+    width: 40em;
+    font-weight: 500;
+}
+
+.restaurant__content-photo img,
+.restaurant__content-dish img
+{
+    border-radius: 16px;
+    }
+
+.restaurant__content-dish img
+ {
+    object-fit: cover;
+}
+
+
+.restaurant__content-images {
+    position: relative;
+    display: flex;
+    align-items:end;
+    margin-bottom: 4em;
+    margin-top: 0em;
+    margin-right: 20px;
+
+}
+
+.restaurant__content-photo {
+    top: -20px; 
+    left: -10px; 
+}
+
+.restaurant__content-dish {
+    position: absolute;
+    top:100px; 
+    left: 30px; 
+    z-index: 1; 
+}
+.restaurant__content-photo {
+    position: relative; 
+}
+
+/* @media screen and (max-width: 700px) {
+    .restaurant__content-photo img,
+    .restaurant__content-dish img {
+        position: static;
+        float: none;
+        cursor: pointer;
+    }
+    .restaurant__content-dish {
+        position: absolute;
+        top:90px; 
+        left: 30px; 
+        z-index: 1; 
+    }
+} */
+
+
+
+@media screen and (max-width: 880px) {
+    .restaurant__content-photo img,
+    .restaurant__content-dish img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .restaurant__content-photo {
+        top: -10px; 
+        left: -10px; 
+    }
+    
+    .restaurant__content-dish {
+        position: absolute;
+        top:60px; 
+        left: 60px; 
+        z-index: 1; 
+    }
+}
+
+.restaurant__content-dish img:hover
+ {
+    position: relative;
+    z-index: 0; 
+}
+
+.restaurant__content-photo img:hover
+ {
+    position: relative;
+    z-index: 1; 
+
+}
+

@@ -1,0 +1,138 @@
+.footer__content {
+    background: #495e57;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.footer__content img {
+    width: 100px;
+    height: 160px;
+    margin: 40px;
+}
+
+ 
+.footer__content a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__content  a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.footer__content-sitemap,
+.footer__content-contact,
+.footer__content-socialmedia{
+    color: white;
+    display: flex;
+   flex-direction: column;
+   line-height: 30px;
+   font-weight: bold;
+   margin: 30px 20px;
+   font-family: "Markazi Text";
+   font-size: 14px;
+}
+
+.menu{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.footer__content-socialmedia p{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-weight: normal;
+    
+}
+
+.footer__content-socialmedia p>a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.footer__content-contact p {
+    font-weight: normal;
+}
+
+
+.footer__content h3{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+ @media screen and (max-width: 550px) {
+    .footer__content img {
+        width: 100px;
+        height:160px;
+        margin-top: 3em;
+    }
+
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__content-contact,
+    .footer__content-socialmedia,
+    .footer__content-sitemap 
+    {
+        flex-direction: column;
+        font-family: "Markazi Text";
+        align-items: center;
+        font-size: 30px;
+        margin-top: 0px;
+        justify-content: center;
+
+    }
+
+    .footer__content-sitemap a,
+    .footer__content-socialmedia a{
+        font-size: 30px; 
+        display: flex;
+        justify-content: center;
+    }
+    .footer__content-sitemap h3,
+    .footer__content-socialmedia h3,
+    .footer__content-contact h3{
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 200;
+
+    }
+    .footer__content-sitemap p,
+    .footer__content-socialmedia p,
+    .footer__content-contact p{
+        font-weight: 100; 
+        justify-content: center;
+    }
+
+    .footer__content-sitemap {
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .footer__items{
+        justify-self: center;
+    }
+    .footer__content img {
+        margin-top: 40px;
+    }
+
+}
+
