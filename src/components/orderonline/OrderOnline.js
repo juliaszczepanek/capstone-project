@@ -18,9 +18,8 @@ import React from 'react';
 
 const OrderOnline = () => {
     return (
-        <div className="content">
-            <h2>Order Online</h2>
-            {/* Your Order Online content goes here */}
+        <div className="login_content">
+            <h2 className='under__construction'>UNDER CONSTRUCTION</h2>
         </div>
     );
 }

@@ -1,0 +1,17 @@
+.under__construction{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    border-style: dashed;
+    margin: 1.5em;
+    border-radius: 16px;
+    font-size: 1.4em;
+    flex-wrap: wrap;
+}

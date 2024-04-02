@@ -4,24 +4,39 @@
     height: 100%;
     background-color: white;
     flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .reservation__content-form{
     background-color: #EDEFEE;
-    margin: 10em;
-    padding: 4em 4em 4em 4em ;
-    border-radius: 16px;
+    margin: 3em;
+padding: 2em;   
+ border-radius: 16px;
     align-items: center;
     font-family: "Markazi Text";
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
 
 }
 
 form{
     display: flex;
     flex-direction: column;
-}
+    flex-wrap: wrap;
 
+}
+.select__occasion label{
+
+    font-family: "Markazi Text";
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:grey;
+}
 label, select{
         margin: 10px;
         padding: 10px;
@@ -33,11 +48,11 @@ label, select{
         font-weight: bold;
         font-size: 1.5em;
         color:grey;
-
-
-
+        width: 30rem;
 
 }
+
+
 
 select{
     border-radius: 16px;
@@ -50,20 +65,25 @@ select{
 input{
     border-radius: 16px;
     border: none;
-    height: 3em;
-    width: 30em;
+    height: 2.6em;
+    width: 30rem;
     font-weight: bold;
     font-size: 0.8em;
-    color:grey;  
+    color: grey;
+    display: flex;
     font-family: "Markazi Text";
     padding-left: 1em;
+    flex-wrap: nowrap;
 }
+
 input placeholder{
     font-weight: bold;
-    font-size: 2.5em;
-    color:grey;  
+    font-size: 2em;
+    /* color:grey;   */
     font-family: "Markazi Text";
+    color: rgba(0, 0, 0, 0.1);  
 }
+
 
 .reservation__content button{
     font-size: 30px;
@@ -77,3 +97,18 @@ input placeholder{
 
 
 }
+
+.reservation__content button {
+    
+    width: 10em;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 16px;
+    font-family: "Markazi Text";
+    align-self: center;
+}
+.error {
+    color: rgb(222, 3, 3);
+    font-size: 1rem;
+padding-top: 9px; 
+font-weight: 400; }

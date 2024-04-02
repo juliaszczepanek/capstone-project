@@ -1,13 +1,12 @@
 import React from 'react';
+import './login.css'
 
 
 const Login = () => {
     return (
         <div>
-            <div className="content">
-                {/* Your Order Online content goes here */}
-                <h2>Login</h2>
-                {/* Add your order online content here */}
+            <div className="login_content">
+                <h2 className='under__construction'>UNDER CONSTRUCTION</h2>
             </div>
         </div>
     );
