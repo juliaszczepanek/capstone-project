@@ -1,8 +1,9 @@
+
 import React, { useState } from 'react';
 import './reservation.css'
 import { submitAPI } from "../../api/api"; // Import the submitAPI function from the API file
 
-const Reservation = () => {
+const Reservation = ({ availableTimes, updateTimes, initializeTimes }) => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [dateReservation, setDate] = useState('');
@@ -10,7 +11,6 @@ const Reservation = () => {
     const [time, setTime] = useState('');
     const [guestsNumb, setNumberOfGuests] = useState('');
     const [reservationOc, setOccasion] = useState("SELECT OCCASION");
-
     const [errors, setErrors] = useState({
         firstName: '',
         lastName: '',
@@ -30,7 +30,7 @@ const Reservation = () => {
             dateReservation: dateReservation === '' ? 'Date Reservation is required' : '',
             time: time === '' ? 'Time is required' : '',
             guestsNumb: guestsNumb === '' ? 'Number of Guests is required' : '',
-            reservationOc: reservationOc === 'SELECT OCCASION' ? 'Occasion is required' : '',
+            // reservationOc: reservationOc === 'SELECT OCCASION' ? 'Occasion is required' : '',
         };
 
         setErrors(newErrors);
@@ -67,6 +67,9 @@ const Reservation = () => {
                 setEmail('');
                 setNumberOfGuests('');
                 setOccasion('Occasion');
+
+                initializeTimes();
+                updateTimes(dateReservation);
             } else {
                 throw new Error('Failed to submit reservation. Please try again later.');
             }
@@ -121,9 +124,19 @@ const Reservation = () => {
 
                         </label>
                         <label className="time__container">Select Time
+                            {/* <select onChange={(e) => setTime(e.target.value)}
+                        >
+                            <option value='17:00'>17:00</option>
+                            <option value='18:00'>18:00</option>
+                            <option value='19:00'>19:00</option>
+                            <option value='20:00'>20:00</option>
+                            <option value='21:00'>21:00</option>
+                            <option value='22:00'>22:00</option>
+                        </select> */}
                             <input
                                 type="time"
                                 value={time}
+
                                 onChange={(e) => setTime(e.target.value)}
                             />
                             {errors.time && <p className="error">{errors.time}</p>}
@@ -148,7 +161,7 @@ const Reservation = () => {
                             <input
                                 type="number"
                                 min={1}
-                                max={60}
+                                max={10}
                                 placeholder='0'
                                 value={guestsNumb}
                                 onChange={(e) => setNumberOfGuests(e.target.value)}

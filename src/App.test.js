@@ -1,8 +1,11 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Header from './components';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Header component', () => {
+  it('renders the Reserve a Table button', () => {
+    render(<Header />);
+    const reserveButton = screen.getByRole('button', { name: /reserve a table/i });
+    expect(reserveButton).toBeInTheDocument();
+  });
 });
