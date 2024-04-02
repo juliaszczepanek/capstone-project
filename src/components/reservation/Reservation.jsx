@@ -147,6 +147,8 @@ const Reservation = () => {
                         <label>NUMBER OF GUEST
                             <input
                                 type="number"
+                                min={1}
+                                max={60}
                                 placeholder='0'
                                 value={guestsNumb}
                                 onChange={(e) => setNumberOfGuests(e.target.value)}
