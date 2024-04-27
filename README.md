@@ -1,4 +1,4 @@
-#Meta Front-end Capstone project - Little lemon Ap#
+#Meta Front-end Capstone project - Little Lemon App#
 
 This project, a result of completing Meta's Coursera Front-End Development course, marks the apex of the Front-End Development Track. It highlights the seamless integration of a booking application into the Little Lemon Website. Utilizing React Components, this endeavor showcases adeptness in employing React for dynamic and responsive web development. Crafted with meticulous attention to detail using JavaScript, HTML, and CSS, this project underscores a dedication to mastering contemporary web technologies for practical application.
 
@@ -25,3 +25,13 @@ This project, a result of completing Meta's Coursera Front-End Development cours
 #Form Validation#
 
 <img width="613" alt="Zrzut ekranu 2024-04-27 o 11 17 16" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/ac152ae6-fd9f-4548-bce1-7c87ec099b97">
+
+# Meta Front-End Developer Professional Certificate
+
+[def]: ttps://coursera.org/share/9dde529b3d09c38b9926b7bb4bb9aa9
+
+[Coursera Y4BWNPHPZMWB (1).pdf](https://github.com/juliaszczepanek/capstone-project/files/15137722/Coursera.Y4BWNPHPZMWB.1.pdf)
+
+# png
+
+![Coursera Cer](https://github.com/juliaszczepanek/capstone-project/assets/126453908/f1994bd3-050b-482d-b976-48f083991943)
