@@ -20,8 +20,8 @@ This project, a result of completing Meta's Coursera Front-End Development cours
 
 #Form#
 
-<img width="613" alt="Zrzut ekranu 2024-04-27 o 11 17 16" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/ac152ae6-fd9f-4548-bce1-7c87ec099b97">
+<img width="612" alt="Zrzut ekranu 2024-04-27 o 11 17 03" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/e69014db-c689-4e7c-8a62-b0e5e48e6231">
 
 #Form Validation#
 
-<img width="612" alt="Zrzut ekranu 2024-04-27 o 11 17 03" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/e69014db-c689-4e7c-8a62-b0e5e48e6231">
+<img width="613" alt="Zrzut ekranu 2024-04-27 o 11 17 16" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/ac152ae6-fd9f-4548-bce1-7c87ec099b97">
