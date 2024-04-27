@@ -1,4 +1,4 @@
-#Meta Front-end Capstone project - Little lemon App#
+<h1>Meta Front-end Capstone project - Little lemon Ap<h1>
 
 This project, a result of completing Meta's Coursera Front-End Development course, marks the apex of the Front-End Development Track. It highlights the seamless integration of a booking application into the Little Lemon Website. Utilizing React Components, this endeavor showcases adeptness in employing React for dynamic and responsive web development. Crafted with meticulous attention to detail using JavaScript, HTML, and CSS, this project underscores a dedication to mastering contemporary web technologies for practical application.
 
