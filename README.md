@@ -1,4 +1,4 @@
-#Meta Front-end Capstone project - Little Lemon App#
+# Meta Front-end Capstone project - Little Lemon App 🍋
 
 This project, a result of completing Meta's Coursera Front-End Development course, marks the apex of the Front-End Development Track. It highlights the seamless integration of a booking application into the Little Lemon Website. Utilizing React Components, this endeavor showcases adeptness in employing React for dynamic and responsive web development. Crafted with meticulous attention to detail using JavaScript, HTML, and CSS, this project underscores a dedication to mastering contemporary web technologies for practical application.
 
@@ -10,19 +10,19 @@ This project, a result of completing Meta's Coursera Front-End Development cours
 
 <img width="1440" alt="Zrzut ekranu 2024-04-27 o 11 15 43" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/2e1db2eb-ec8e-42df-94c7-b2b1d75763df">
 
-#Version for smaller width of screen#
+# Version for smaller width of screen
 
 <img width="785" alt="Zrzut ekranu 2024-04-27 o 11 16 15" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/438ffb19-5514-459a-9117-bc213ef64e77">
 
-#Haburgr Menu#
+# Haburgr Menu
 
 <img width="614" alt="Zrzut ekranu 2024-04-27 o 11 16 30" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/78866cfa-4a74-4687-84c8-2a78bfc2ef92">
 
-#Form#
+# Form
 
 <img width="612" alt="Zrzut ekranu 2024-04-27 o 11 17 03" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/e69014db-c689-4e7c-8a62-b0e5e48e6231">
 
-#Form Validation#
+# Form Validation
 
 <img width="613" alt="Zrzut ekranu 2024-04-27 o 11 17 16" src="https://github.com/juliaszczepanek/to_do_app/assets/126453908/ac152ae6-fd9f-4548-bce1-7c87ec099b97">
 
@@ -31,7 +31,5 @@ This project, a result of completing Meta's Coursera Front-End Development cours
 [def]: ttps://coursera.org/share/9dde529b3d09c38b9926b7bb4bb9aa9
 
 [Coursera Y4BWNPHPZMWB (1).pdf](https://github.com/juliaszczepanek/capstone-project/files/15137722/Coursera.Y4BWNPHPZMWB.1.pdf)
-
-# png
 
 ![Coursera Cer](https://github.com/juliaszczepanek/capstone-project/assets/126453908/f1994bd3-050b-482d-b976-48f083991943)
